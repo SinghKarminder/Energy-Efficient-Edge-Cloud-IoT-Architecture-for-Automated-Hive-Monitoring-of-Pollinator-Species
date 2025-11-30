@@ -1,0 +1,13 @@
+[Unit]
+Description=set camera control 
+After=devdetect.service
+
+[Service]
+ExecStart=/usr/bin/python3 -u /usr/sbin/camera/cam_set.py
+Environment=PYTHONBUFFERED=1
+#StandardOutput=file:/var/tmp/devicemgr.log
+#StandardError=inherit
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

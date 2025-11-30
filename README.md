@@ -1,8 +1,33 @@
 # Energy-Efficient Edge Processing IoT Framework for Pollinator Species
 
-This repository contains a complete IoT-based system for **real-time monitoring, detection, and logging of pollinator species**. It is designed for edge devices to efficiently process video and sensor data using AI/YOLO-based pipelines while minimizing energy consumption.  
+This repository contains a complete IoT-based system for **real-time monitoring, detection, and logging of pollinator species**. It is designed for edge devices to efficiently process video and sensor data using a **YOLO-based detection pipeline** while maintaining **low power consumption** for long-term field deployment.
 
-The repository is modular, with separate components for sensor provisioning, data acquisition, video processing, cloud integration, and model management.
+The repository is organized in a **modular structure**, with dedicated components for:
+
+- **Sensor provisioning**
+- **Data acquisition**
+- **Video/frame processing**
+- **Cloud integration and data upload**
+- **Model management and configuration**
+
+In addition, this repository provides a **minimal reproducibility package**—including essential code, configuration parameters, and sample data—so that developers and researchers can understand the workflow and **adapt or build their own embedded-system–based solutions** on microcontrollers, Single Board Computers (SBCs), or custom processors.
+
+A **Single Board Computer (SBC)** is a compact, fully functional computer built onto a **single circuit board**, typically used in embedded, IoT, and edge-AI applications. An SBC integrates:
+
+- **Processor (CPU)**
+- **Memory (RAM)**
+- **Onboard storage** or support for **SD/eMMC**
+- **I/O interfaces** such as USB, HDMI, GPIO, CSI/DSI camera ports, and networking options
+
+SBCs are capable of running full operating systems such as **Linux**, making them ideal for deploying real-time inference, sensor fusion, and edge-level processing applications.
+
+### Common Examples of SBCs
+
+- **Raspberry Pi**
+- **NVIDIA Jetson Nano / Xavier NX**
+- **i.MX8 multicore processor (Aplias iMX8)** – *the system and code in this repository were tested on this platform*
+
+SBCs provide a powerful yet energy-efficient platform for IoT edge deployments, enabling real-time processing without relying on cloud-based computation.
 
 ---
 

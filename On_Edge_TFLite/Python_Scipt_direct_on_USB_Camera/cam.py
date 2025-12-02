@@ -18,8 +18,8 @@ cwd = os.getcwd()
 cap = cv2.VideoCapture("/dev/video2", cv2.CAP_V4L)
 
 # TFLite model configuration
-MODEL_PATH = './model2apis.tflite'
-MODEL_NAME = 'model2apis'
+MODEL_PATH = './best.tflite'
+MODEL_NAME = 'best'
 DETECTION_THRESHOLD = 0.05  # Minimum confidence to consider a detection
 
 # Output path pattern for saving processed frames

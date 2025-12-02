@@ -64,16 +64,10 @@ This script automates the creation and configuration of a **Yocto meta-ml layer*
 - Create a custom **meta-ml** layer.
 - Copy and organize ML-related recipes.
 - Remove conflicting or unnecessary recipes.
-- Update recipes for target machines (`apalis-imx8`, `verdin-imx8mp`).
+- Update recipes for target machines (`apalis-imx8`).
 - Configure OpenCV, TensorFlow Lite, ONNX Runtime, and other ML dependencies.
-- Update `local.conf` with required packages and build parameters.
 
 ---
 
-### **Usage**
 
-1. Make the script executable:
-
-```bash
-chmod +x setup_TF_layer.sh
 

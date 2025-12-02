@@ -30,7 +30,6 @@ SBCs are capable of running full operating systems such as **Linux**, making the
 SBCs provide a powerful yet energy-efficient platform for IoT edge deployments, enabling real-time processing without relying on cloud-based computation.
 
 ---
-
 ## Repository Structure
 
 | Folder | Description |
@@ -43,12 +42,14 @@ SBCs provide a powerful yet energy-efficient platform for IoT edge deployments, 
 | `Make_video_file` | Scripts to compile stored images into video files for review and analysis. |
 | `Model_results` | Stores outputs from trained models including evaluation metrics, predictions, and logs. |
 | `Models` | Trained YOLO models (`best.pt`) and related model weights for insect detection. |
+| `On_Edge_TFLite` | Contains scripts and steps to integrate the NXP eIQ Machine Learning Layer into a Toradex-based Yocto build system for running TFLite-based inference on edge devices. |
 | `Sensor_configuration` | Configuration files for connected camera sensor. |
 | `Sensor_manager_console` | Web-based dashboard and control console for managing sensors and monitoring device status. |
 | `Sensor_provision` | Scripts for provisioning new devices on AWS IoT, including boot scripts and certificate management. |
 | `Synchronizer` | Handles time synchronization, periodic advertising, and data aggregation between edge devices. |
 | `With_PFOO_MNIP_RPFT_architecture` | Implementation of insect detection pipeline using advanced algorithms (PFOO, MNIP, RPFT) for optimized detection. |
 | `Without_PFOO_MNIP_RPFT_architecture` | YOLO-only version for direct full-frame detection without PFOO/MNIP/RPFT preprocessing. |
+
 
 ---
 

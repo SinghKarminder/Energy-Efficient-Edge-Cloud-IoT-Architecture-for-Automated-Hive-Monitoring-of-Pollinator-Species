@@ -49,3 +49,31 @@ Initialize the Yocto and BitBake environment using the Toradex setup script:
 
 ```bash
 source ./export
+```
+
+# `setup_TF_layer.sh` – Yocto ML Layer Setup Script
+
+This script automates the creation and configuration of a **Yocto meta-ml layer** for Toradex i.MX8 platforms, including machine learning libraries, OpenCV, TensorFlow Lite, ONNX Runtime, and related dependencies.
+
+---
+
+## **File:** `setup_TF_layer.sh`
+
+### **Purpose**
+
+- Create a custom **meta-ml** layer.
+- Copy and organize ML-related recipes.
+- Remove conflicting or unnecessary recipes.
+- Update recipes for target machines (`apalis-imx8`, `verdin-imx8mp`).
+- Configure OpenCV, TensorFlow Lite, ONNX Runtime, and other ML dependencies.
+- Update `local.conf` with required packages and build parameters.
+
+---
+
+### **Usage**
+
+1. Make the script executable:
+
+```bash
+chmod +x setup_TF_layer.sh
+

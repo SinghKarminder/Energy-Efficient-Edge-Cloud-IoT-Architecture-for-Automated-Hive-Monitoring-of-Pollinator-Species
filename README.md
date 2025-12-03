@@ -139,8 +139,10 @@ Email: `suman@iitrpr.ac.in`
 
 ## License
 
-This repository is released for academic and research use. Please cite appropriately if you use any part of this work.
+This repository is released for academic and research use as part of a collaborative effort between the IIT Ropar Technology and Innovation Foundation (iHub–AWaDH) and the authors of this work.
+All code, models, and associated resources are provided solely for non-commercial research purposes.
 
+Users are requested to cite this work appropriately if any component of the repository is used, adapted, or referenced in academic publications or derivative research.
 
 
 
